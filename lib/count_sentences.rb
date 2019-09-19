@@ -14,5 +14,8 @@ class String
    self.end_with?("!")
   end
 
-
+  def count_sentences
+    binding.pry
+   self.count_sentences
+  end
 end
